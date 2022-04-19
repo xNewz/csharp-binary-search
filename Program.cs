@@ -19,6 +19,10 @@ namespace csharp_binary_search
                     else
                         first = last + 1;
             }
+            if (target == arr[mid])
+                Console.WriteLine($"Found {target}");
+            else
+                Console.WriteLine($"Not Found {target}");
         }
         static void Main(string[] args)
         {
