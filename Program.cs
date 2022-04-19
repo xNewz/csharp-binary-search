@@ -29,6 +29,12 @@ namespace csharp_binary_search
             Console.Write("Input max array: ");
             int max = int.Parse(Console.ReadLine());
             int[] arr = new int[max];
+
+            for (int i = 0; i < max; i++)
+            {
+                Console.Write($"Input data index{i}: ");
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
