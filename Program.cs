@@ -35,6 +35,8 @@ namespace csharp_binary_search
                 Console.Write($"Input data index{i}: ");
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
+            Console.Write("Search number: ");
+            int search = int.Parse(Console.ReadLine());
         }
     }
 }
