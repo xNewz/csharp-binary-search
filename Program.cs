@@ -26,7 +26,8 @@ namespace csharp_binary_search
         }
         static void Main(string[] args)
         {
-            
+            Console.Write("Input max array: ");
+            int max = int.Parse(Console.ReadLine());
         }
     }
 }
