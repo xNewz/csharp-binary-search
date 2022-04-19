@@ -37,6 +37,7 @@ namespace csharp_binary_search
             }
             Console.Write("Search number: ");
             int search = int.Parse(Console.ReadLine());
+            find_num(arr, search);
         }
     }
 }
